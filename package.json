@@ -1,21 +1,15 @@
 {
-  "name": "algorithmic-trading-backtester",
+  "name": "trading-backtest",
   "version": "1.0.0",
-  "description": "",
-  "main": "backtest.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "CLI tool for backtesting trading strategies",
+  "main": "lib/engine.js",
+  "bin": {
+    "backtest": "./bin/cli.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Inshamhaque/Algorithmic-Trading-Backtester.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Inshamhaque/Algorithmic-Trading-Backtester/issues"
-  },
-  "homepage": "https://github.com/Inshamhaque/Algorithmic-Trading-Backtester#readme"
+  "keywords": ["trading", "backtest", "cli", "finance", "algorithmic"],
+  "author": "Inshamul haque",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
